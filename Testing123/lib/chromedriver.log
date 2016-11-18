@@ -1,0 +1,5 @@
+[0228/115626:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0228/115626:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86","name":"Windows NT","version":"6.1 SP1"}}}
+[0228/115627:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","version":""}}
+[0228/115627:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0228/115647:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":13,"value":{"message":"unknown error: unable to discover open pages\n  (Driver info: chromedriver=0.8,platform=Windows NT 6.1 SP1 x86)"}}
