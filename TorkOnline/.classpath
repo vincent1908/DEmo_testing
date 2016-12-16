@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/cssparser-0.9.9.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/guava-14.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/htmlunit-2.12.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/htmlunit-core-js-2.12.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/httpclient-4.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/httpcore-4.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/httpmime-4.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/jfreechart-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/json-20080701.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/nekohtml-1.9.17.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/operadriver-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/phantomjsdriver-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/selenium-java-2.33.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/selenium-java-2.33.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/selenium-server-standalone-2.37.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/sumit/workspace/TorkOnline/lib/pdfbox-2.0.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

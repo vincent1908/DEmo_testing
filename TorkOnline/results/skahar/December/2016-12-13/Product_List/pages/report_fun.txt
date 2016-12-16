@@ -1,0 +1,143 @@
+aWriter.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> ");
+aWriter.write("<html>");
+aWriter.write("<head>");
+   
+aWriter.write("<link type=\"text/css\" href=\"./pages/css/themes/ui-lightness/jquery-ui-1.8.16.custom.css\" rel=\"Stylesheet\" />");
+aWriter.write("<link type=\"text/css\" href=\"./pages/css/myStyle.css\" rel=\"Stylesheet\" />");
+aWriter.write("<script type=\"text/javascript\" src=\"./pages/js/jquery-1.6.2.min.js\"></script>");
+aWriter.write("<script type=\"text/javascript\" src=\"./pages/js/jquery-ui-1.8.16.custom.min.js\"></script>");
+aWriter.write("<script type=\"text/javascript\" src=\"./pages/js/my.js\"></script>");
+aWriter.write("</head>");
+aWriter.write("<script type=\"text/javascript\">");
+             
+aWriter.write("$(document).ready(function(){");
+aWriter.write("$(\"#tabs_environment,#tabs_plan,#tabs_set,#set_content_tabs\").tabs({");
+aWriter.write("selected: 0,");
+aWriter.write("deselectable: true");
+aWriter.write("});");
+aWriter.write("$(\"button\", \".btn\" ).button();");
+aWriter.write("$(\"button\", \".plan_step_list\" ).button();");
+aWriter.write("$(\"#tabs_plan\").hide();");
+aWriter.write("$(\"#tabs_set\").hide();");
+aWriter.write("$(\"#dialog\").dialog({");
+aWriter.write("autoOpen:false,");
+aWriter.write("modal:true,");
+aWriter.write("buttons:{");
+aWriter.write(" Store:function(){");
+aWriter.write("return;");
+aWriter.write("}");
+aWriter.write("},");
+aWriter.write("dialogClass: 'f2',");
+aWriter.write("resizable: true,");
+aWriter.write("show: 'slide',");
+aWriter.write("height:120");
+aWriter.write("});");                
+              
+aWriter.write("});");
+aWriter.write("</script>");
+aWriter.write("<body>");
+aWriter.write("<div class=\"page_container\">");
+aWriter.write("<div class=\"head\">");
+aWriter.write("<img alt=\"Capgemini\" src=\"./pages/images/logo160.gif\">");
+aWriter.write("</div>");
+aWriter.write("<div class=\"content\">");
+aWriter.write("<table class=\"content_table\" cellpadding=\"0\" cellspacing=\"0\">");
+aWriter.write("<tr>");
+aWriter.write("<td valign=\"top\">");
+aWriter.write("<div class=\"right_content\">");
+aWriter.write("<div id=\"tabs_environment\">");
+aWriter.write("<ul>");
+aWriter.write("<li><a href=\"#tabs-set-2\" class=\"f2\">"+ classname + " Report "</a></li>");
+aWriter.write("</ul>");
+aWriter.write("<div id=\"tabs-set-1\"  class=\"f2\">");
+aWriter.write("<div style=\"margin-top: 10px;\">");
+aWriter.write("<table id=\"set_table\" width=\"100%\" class=\"f2\" cellpadding=\"\" cellspacing=\"10\" >");
+aWriter.write("<td><b>Execution Start Time</b></td>");
+aWriter.write("<td><b>Execution End Time</b></td>");
+aWriter.write("<td><b>Elapsed Time</b></td>");
+ aWriter.write("</tr>");                                                                                                                                                                                                                                                                                                                                                                                               
+ aWriter.write("<tr class=\"list_table_tr\"">);
+aWriter.write("<td>09-Aug-2011</td>");
+aWriter.write("<td>"+startTime+"</td>");
+aWriter.write("<td>"+stopTime+"</td>");
+aWriter.write("<td>" + Math.round((time_elapsed / (60000)) * 60) + " " + "seconds" + "</td>");
+aWriter.write("</tr>");
+aWriter.write(" <tr class=\"list_table_tr\">");
+aWriter.write(" <td></td>");
+aWriter.write(" <td></td>");
+aWriter.write(" <td></td>");
+aWriter.write("<td></td>");
+aWriter.write("</tr>");
+aWriter.write("<tr class=\"list_table_tr\">");
+aWriter.write("<td><b>Test Scenario Name</b></td>");
+aWriter.write("<td><b>Test Case Name</b></td>");
+aWriter.write("<td><b>Test Case Desc</b></td>");
+aWriter.write("<td><b>Expected Result</b></td>");
+aWriter.write("<td><b>Actual Result</b></td>");
+aWriter.write("<td><b>Status</b></td>");
+aWriter.write("<td><b>ScreenShot</b></td>");
+aWriter.write("</tr>");
+aWriter.write("<tr class=\"list_table_tr\">");
+aWriter.write(" <td></td>");
+aWriter.write(" <td></td>");
+aWriter.write(" <td></td>");
+aWriter.write("<td></td>");
+aWriter.write("<td></td>");
+aWriter.write("<td></td>");
+aWriter.write("<td></td>");
+aWriter.write("</tr>");
+aWriter.write("<tr class=\"list_table_tr\">");
+ for (int i = 0; i < tempList_testCase_name.size(); i++) {
+ if (i % 2 == 0) {
+ aWriter.write("<tr class=\"list_table_tr\"><td >" + tempList_scenario_name.get(i) + "</td>");
+aWriter.write("<td >" + tempList_testCase_name.get(i) + "</td>");
+ aWriter.write("<td >" + tempList_description.get(i) + "</td>");
+  aWriter.write("<td >" + tempList_exp_result.get(i) + "</td>");
+  aWriter.write("<td >" + tempList_act_result.get(i) + "</td>");
+ aWriter.write("<td >" + tempList_result.get(i)+"</td>\n");
+  
+ aWriter.write("<td >");
+	if (tempList_location.get(i).contentEquals("No screenshot available")) {
+		aWriter.write("No Screenshot available");
+		
+		} 
+	else {
+		aWriter.write("<a href =\"");
+		aWriter.write("file:///" + tempList_location.get(i));
+		aWriter.write("\" target=\"_blank\">Screenshot</td>\n");
+		aWriter.write("<td>" + tempList_result.get(i) + "</tr>"); 
+		}
+	}
+else {
+	 aWriter.write("<tr class=\"list_table_tr\"><td >" + tempList_scenario_name.get(i) + "</td>");
+aWriter.write("<td >" + tempList_testCase_name.get(i) + "</td>");
+ aWriter.write("<td >" + tempList_description.get(i) + "</td>");
+  aWriter.write("<td >" + tempList_exp_result.get(i) + "</td>");
+  aWriter.write("<td >" + tempList_act_result.get(i) + "</td>");
+ aWriter.write("<td >" + tempList_result.get(i)+"</td>\n");
+	aWriter.write("<td >");
+	if (tempList_location.get(i).contentEquals("No screenshot available")) {
+		aWriter.write("No Screenshot available");
+		aWriter.write("<td>" + tempList_result.get(i)+"</td>\n");
+	} 
+	else {
+		aWriter.write("<a href =\"");
+		aWriter.write("file:///" + tempList_location.get(i));
+		aWriter.write("\" target=\"_blank\">Screenshot</td>\n");
+		aWriter.write("<td >" + tempList_result.get(i) + "</td></tr>");
+		}
+	}
+}
+
+  aWriter.write("</table>");
+ aWriter.write("</div>");
+aWriter.write("</div>");                                                                              
+aWriter.write("</div>");
+aWriter.write("</div>");
+aWriter.write("</td>");
+aWriter.write("</tr>");
+aWriter.write("</table>");
+aWriter.write("</div>");
+aWriter.write("</div>");
+aWriter.write("</body>");
+aWriter.write("</html>");	

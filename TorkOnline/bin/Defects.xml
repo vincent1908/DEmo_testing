@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Defects>
+<Defect id="12">
+<Summary>Home Page_User Interface for Hero Carousel section.</Summary>
+<Description>Access tork online website home page .Verify that Hero Carousel module is displayed at top of tork home page.</Description>
+</Defect>
+<Defect id="13">
+<Summary>Newsletter (Registered user)</Summary>
+<Description>Verify that user received the newsletter email. Verify that click here link is displays on newsletter email.</Description>
+</Defect>
+<Defect id="14">
+<Summary>Click on About Tork in footer menu</Summary>
+<Description>Click on About Tork in the footer.Check that you end up on About Tork Editorial page</Description>
+</Defect>
+</Defects>

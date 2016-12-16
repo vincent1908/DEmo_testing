@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> <html><head><link type="text/css" href="./pages/css/themes/ui-lightness/jquery-ui-1.8.16.custom.css" rel="Stylesheet" /><link type="text/css" href="./pages/css/myStyle.css" rel="Stylesheet" /><script type="text/javascript" src="./pages/js/jquery-1.6.2.min.js"></script><script type="text/javascript" src="./pages/js/jquery-ui-1.8.16.custom.min.js"></script><script type="text/javascript" src="./pages/js/my.js"></script></head><script>$(document).ready(function(){$("#tabs_environment,#tabs_plan,#tabs_set,#set_content_tabs").tabs({selected: 0,deselectable: true});$("button", ".btn" ).button();$("button", ".plan_step_list" ).button();$("#tabs_plan").hide();$("#tabs_set").hide();$("#dialog").dialog({autoOpen:false,modal:true,buttons:{ Store:function(){return;}},dialogClass: 'f2',resizable: true,show: 'slide',height:120});});</script><script>$(document).ready(function(){$("#hrefid").click(function() {$(".expand").toggle();});});</script><script type="text/javascript">function toggleTable(id) {var iterationId = document.getElementById("tr_" + id);var buttonValueId = document.getElementById("button_" + id);iterationId.style.display == "block" ? iterationId.style.display = "none" : iterationId.style.display = "block";if(buttonValueId.value=="Show ")buttonValueId.value="Hide ";else buttonValueId.value="Show ";}</script><body><div class="page_container"><div class="head"><img alt="Capgemini" src="./pages/images/logo160.gif"></div><div class="content"><div class="right_content"><div id="tabs_environment"><ul><li><a href="#tabs-set-2" class="f2">Execution Report </a></li><br></br></ul><div id="tabs-set-1"  class="f2"><div style="margin-top: 10px;" id="style_div"><table  style="width:100%;"><tr ><td><b>Execution Date   </b></td><td><b>Execution Start Time  </b></td><td><b>TestCase Name  </b></td><td><b>Operating System </b></td><td><b>Browser  </b></td></tr><tr class="list_table_tr"><td><td><td></td><td></td><td></td><td></td></tr><tr class="list_table_tr"><td>15-12-2016</td><td>1:28:8 PM</td><td>Cross_Promotional_Section</td><td>Windows 7</td><td>IE</td></tr></table><br> <a href="#" id="hrefid" style="color: blue;" >Click for test-case data</a><br><div class="expand"><table  style="width:100%;"><thead><td ><input type="button" id="button_1" onclick="toggleTable(1)" style=" height:25px; width:auto;text-align: center;" value="Show ">&nbsp;&nbsp;&nbsp; Iteration 1 </td></thead><tbody id="tr_1" style="display:none;"><tr class="list_table_tr"><td><b>Test Scenario Name</b></td><td><b>Test Step Description</b></td><td><b>Test Data</b></td><td><b>Status</b></td><td><b>Result Description</b></td><td><b>ScreenShot</b></td></tr><tr class="list_table_tr"><td >LAUNCHAPPLICATION</td><td >Lauch Application URL</td><td >http://www.torkusa.com/</td><td><font color="Green">Pass</td>
+<td >Lauched Application URL successfully</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.18200.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Cross Promotional module is present</td><td >Verify element is present on the page</td><td >Choose your business area
+Building service contractors
+Whether you are a property manager or part of the cleaning staff, we want to make your life a...
+Read more
+Industry
+Keep your production line clean and running with our handy dispensers and purpose-made cloths...
+Read more
+Healthcare
+Hotels
+Provide a fresh, clean and comfortable stay for your guests every day. Our personal hygiene...
+Read more
+Office
+Regardless if you are in a small office or a big office building, Tork offers what you need. We all spend...
+Read more</td><td><font color="Green">Pass</td>
+<td >Element is present on the page</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.25888.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Testimonial module is present</td><td >Verify element is present on the page</td><td >“
+Tork Xpressnap is more environmentally friendly than what we were using. It's a better product and has also saved us money.
+Sam Koronczyk
+Managing Director
+Lord of the Fries is one of the first fast food franchises with a credible vegetarian and environmental agenda. It’s a fresh concept with store fit-outs that match its very current, younger profile and customer.
+Read more</td><td><font color="Green">Pass</td>
+<td >Element is present on the page</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.28409.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Cross Promotional module is present above testimonial</td><td >Verify element is present on the page</td><td >“
+Tork Xpressnap is more environmentally friendly than what we were using. It's a better product and has also saved us money.
+Sam Koronczyk
+Managing Director
+Lord of the Fries is one of the first fast food franchises with a credible vegetarian and environmental agenda. It’s a fresh concept with store fit-outs that match its very current, younger profile and customer.
+Read more</td><td><font color="Green">Pass</td>
+<td >Element is present on the page</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.3087.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Image Clickable</td><td >Verify image is not clickable </td><td >//*[@ID='BUSINESSAREA']/DIV/DIV[2]/DIV[1]/DIV/DIV[1]/A/IMG</td><td><font color="Red">Fail</td>
+<td >Image clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.32102.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td valign="top" colspan="6"><div class="right_content"><div id="tabs_environment"><ul><li><a href="#tabs-set-2" class="f2">Iteration Summary </a></li></ul><div id="tabs-set-1"  class="f2"><tr class="list_table_tr"><td><b>Data Sheet</b></td><td>data/MasterSheet.xls</td></tr></tr><tr class="list_table_tr"><td><b>Number of Steps Passed</b></td><td> <font color="Green">4</td></tr><tr class="list_table_tr"><td><b>Number of Steps Failed</b></td><td><font color="Red">1</td><tr class="list_table_tr"><td><b>Iteration Result</b></td><td><b>Fail</b></td></tr><tr class="list_table_tr"><td><b>Pass Fail Percentage</b></td><td>80</td></tr></div></div></td></tr></tbody></table><hr></div><div class="expand"><table  style="width:100%;"><thead><td ><input type="button" id="button_2" onclick="toggleTable(2)" style=" height:25px; width:auto;text-align: center;" value="Show ">&nbsp;&nbsp;&nbsp; Iteration 2 </td></thead><tbody id="tr_2" style="display:none;"><tr class="list_table_tr"><td><b>Test Scenario Name</b></td><td><b>Test Step Description</b></td><td><b>Test Data</b></td><td><b>Status</b></td><td><b>Result Description</b></td><td><b>ScreenShot</b></td></tr><tr class="list_table_tr"><td >LAUNCHAPPLICATION</td><td >Lauch Application URL</td><td >http://www.torkusa.com/</td><td><font color="Green">Pass</td>
+<td >Lauched Application URL successfully</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.4216.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Cross Promotional module is present</td><td >Verify element is present on the page</td><td >Choose your business area
+Building service contractors
+Whether you are a property manager or part of the cleaning staff, we want to make your life a...
+Read more
+Industry
+Keep your production line clean and running with our handy dispensers and purpose-made cloths...
+Read more
+Healthcare
+Hotels
+Provide a fresh, clean and comfortable stay for your guests every day. Our personal hygiene...
+Read more
+Office
+Regardless if you are in a small office or a big office building, Tork offers what you need. We all spend...
+Read more</td><td><font color="Green">Pass</td>
+<td >Element is present on the page</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.490.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Testimonial module is present</td><td >Verify element is present on the page</td><td >“
+With low-lint cleaning cloths, wet wipes and paper towels in dispensers mounted on the waxers' workstations, the work gets done very efficiently.
+Knut Nystad
+Chief ski wax technician for the Norwegian cross-country ski team
+The Norwegian national skiing team would never glide so smoothly if it weren’t for these people.
+Read more</td><td><font color="Green">Pass</td>
+<td >Element is present on the page</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.54889.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Cross Promotional module is present above testimonial</td><td >Verify element is present on the page</td><td >“
+With low-lint cleaning cloths, wet wipes and paper towels in dispensers mounted on the waxers' workstations, the work gets done very efficiently.
+Knut Nystad
+Chief ski wax technician for the Norwegian cross-country ski team
+The Norwegian national skiing team would never glide so smoothly if it weren’t for these people.
+Read more</td><td><font color="Green">Pass</td>
+<td >Element is present on the page</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.28.59911.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >VERIFY LINK IS CLICKABLE</td><td >VERIFY WHETHER LINK IS CLICKABLE OR NOT</td><td >Link http://www.torkusa.com/recommendations/businesses/building-service-contractors/</td><td><font color="Red">Fail</td>
+<td >Link clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.29.1722.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >VERIFY LINK IS CLICKABLE</td><td >VERIFY WHETHER LINK IS CLICKABLE OR NOT</td><td >Link http://www.torkusa.com/recommendations/businesses/industry/</td><td><font color="Red">Fail</td>
+<td >Link clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.29.3380.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >VERIFY LINK IS CLICKABLE</td><td >VERIFY WHETHER LINK IS CLICKABLE OR NOT</td><td >Link http://www.torkusa.com/recommendations/businesses/hotels/</td><td><font color="Red">Fail</td>
+<td >Link clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.29.49195.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >VERIFY LINK IS CLICKABLE</td><td >VERIFY WHETHER LINK IS CLICKABLE OR NOT</td><td >Link http://www.torkusa.com/recommendations/businesses/office/</td><td><font color="Red">Fail</td>
+<td >Link clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.30.06912.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td valign="top" colspan="6"><div class="right_content"><div id="tabs_environment"><ul><li><a href="#tabs-set-2" class="f2">Iteration Summary </a></li></ul><div id="tabs-set-1"  class="f2"><tr class="list_table_tr"><td><b>Data Sheet</b></td><td>data/MasterSheet.xls</td></tr></tr><tr class="list_table_tr"><td><b>Number of Steps Passed</b></td><td> <font color="Green">4</td></tr><tr class="list_table_tr"><td><b>Number of Steps Failed</b></td><td><font color="Red">4</td><tr class="list_table_tr"><td><b>Iteration Result</b></td><td><b>Fail</b></td></tr><tr class="list_table_tr"><td><b>Pass Fail Percentage</b></td><td>50</td></tr></div></div></td></tr></tbody></table><hr></div><div class="expand"><table  style="width:100%;"><thead><td ><input type="button" id="button_3" onclick="toggleTable(3)" style=" height:25px; width:auto;text-align: center;" value="Show ">&nbsp;&nbsp;&nbsp; Iteration 3 </td></thead><tbody id="tr_3" style="display:none;"><tr class="list_table_tr"><td><b>Test Scenario Name</b></td><td><b>Test Step Description</b></td><td><b>Test Data</b></td><td><b>Status</b></td><td><b>Result Description</b></td><td><b>ScreenShot</b></td></tr><tr class="list_table_tr"><td >LAUNCHAPPLICATION</td><td >Lauch Application URL</td><td >http://www.torkusa.com/</td><td><font color="Green">Pass</td>
+<td >Lauched Application URL successfully</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.30.15475.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >Image Clickable</td><td >Verify image is not clickable </td><td >//*[@ID='BUSINESSAREA']/DIV/DIV[2]/DIV[1]/DIV/DIV[1]/A/IMG</td><td><font color="Red">Fail</td>
+<td >Image clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.30.21160.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td valign="top" colspan="6"><div class="right_content"><div id="tabs_environment"><ul><li><a href="#tabs-set-2" class="f2">Iteration Summary </a></li></ul><div id="tabs-set-1"  class="f2"><tr class="list_table_tr"><td><b>Data Sheet</b></td><td>data/MasterSheet.xls</td></tr></tr><tr class="list_table_tr"><td><b>Number of Steps Passed</b></td><td> <font color="Green">1</td></tr><tr class="list_table_tr"><td><b>Number of Steps Failed</b></td><td><font color="Red">1</td><tr class="list_table_tr"><td><b>Iteration Result</b></td><td><b>Fail</b></td></tr><tr class="list_table_tr"><td><b>Pass Fail Percentage</b></td><td>50</td></tr></div></div></td></tr></tbody></table><hr></div><div class="expand"><table  style="width:100%;"><thead><td ><input type="button" id="button_4" onclick="toggleTable(4)" style=" height:25px; width:auto;text-align: center;" value="Show ">&nbsp;&nbsp;&nbsp; Iteration 4 </td></thead><tbody id="tr_4" style="display:none;"><tr class="list_table_tr"><td><b>Test Scenario Name</b></td><td><b>Test Step Description</b></td><td><b>Test Data</b></td><td><b>Status</b></td><td><b>Result Description</b></td><td><b>ScreenShot</b></td></tr><tr class="list_table_tr"><td >LAUNCHAPPLICATION</td><td >Lauch Application URL</td><td >http://www.torkusa.com/</td><td><font color="Green">Pass</td>
+<td >Lauched Application URL successfully</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.30.28316.png" target="_blank">Screenshot</td>
+<tr class="list_table_tr"><td >VERIFY LINK IS CLICKABLE</td><td >VERIFY WHETHER LINK IS CLICKABLE OR NOT</td><td >Link http://www.torkusa.com/recommendations/businesses/building-service-contractors/</td><td><font color="Red">Fail</td>
+<td >Link clickable Failed</td><td ><a href ="file:///D:\sumit\workspace\TorkOnline/results/screenshot/Cross_Promotional_Section2016-12-15-01.30.47410.png" target="_blank">Screenshot</td>
